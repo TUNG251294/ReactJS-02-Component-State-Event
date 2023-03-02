@@ -1,4 +1,6 @@
 import { Component } from 'react';
+import '../App.css'
+
 export default class Calculator extends Component{
     constructor(props){
         super(props);
@@ -51,7 +53,7 @@ export default class Calculator extends Component{
             <div>
                 <input type = "number" onChange={this.inputFirst} placeholder="0"></input><br></br>
                 <input type = "number" onChange={this.inputSecond} placeholder="0"></input>
-                <p>Result: {this.state.result}</p>
+                <p className='large-text'>Result: {this.state.result}</p>
                 <button onClick={this.handleMath} value = "+">+</button>
                 <button onClick={this.handleMath} value = "-">-</button>
                 <button onClick={this.handleMath} value = "*">*</button>
