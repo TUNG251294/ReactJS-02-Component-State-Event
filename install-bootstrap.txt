@@ -1,0 +1,7 @@
+Bootstrap là một framework front-end cung cấp các lớp HTML, JavaScript và CSS
+
+Cài đặt Bootstrap trong React bằng npm trong terminal npm i --save bootstrap
+
+Trong file index.js, import Bootstrap CSS import 'bootstrapdistcssbootstrap.css';
+
+Trong file index.js, import Bootstrap JS import 'bootstrapdistjsbootstrap.js';
